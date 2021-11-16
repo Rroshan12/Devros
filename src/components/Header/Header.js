@@ -7,6 +7,7 @@ import database from '../../images/database.png'
 import {AiOutlineGithub} from 'react-icons/ai'
 import {FiFacebook} from 'react-icons/fi'
 import {AiOutlineLinkedin} from 'react-icons/ai'
+import Typical from 'react-typical'
 
 
 
@@ -17,8 +18,23 @@ function Header() {
             <div id="header">
             <img src={image} />
             <div class="container ">
-                <h1>Hi I am Roshan Poudel</h1>
-                <h2>I develop mern stack</h2>
+                <h1>Hi I'm Roshan Poudel</h1>
+                <h2>I develop {''} <Typical
+                loop={Infinity}
+                wrapper='b'
+                steps={
+                    [
+                        'React-frontend',1000,
+                        'Node-backend',1000,
+                        'Mongodb',1000,
+                        'Express',1000,
+
+                    ]
+                }
+                /></h2>
+                
+               
+
 
 
             </div>
