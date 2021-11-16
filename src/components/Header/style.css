@@ -56,6 +56,7 @@ img
     
     text-align: center;
     padding-top:130px;
+    height: 700px;
     
    
    
@@ -65,6 +66,10 @@ img
 
     display: flex;
    justify-content: center;
+   width:100%;
+   
+   
+  
 
 }
 
@@ -78,24 +83,27 @@ img
     
 }
 .node{
-    width:400px;
+    width:200px;
     
     border: 1px solid white;
     margin:5px;
+   
 
 }
 .mongo{
-    width:400px;
+    width:200px;
    
     border: 1px solid white;
     margin:5px;
+    
 
 }
 .react{
-    width:400px;
+    width:200px;
    
     border: 1px solid white;
     margin:5px;
+    
 
 }
 .icons

@@ -12,6 +12,7 @@ import Typical from 'react-typical'
 
 
 
+
 function Header() {
     return (
         <div id="mainy" >
@@ -44,6 +45,7 @@ function Header() {
                 <div className="project-wrap">
                 <h1 >Skills</h1>
                 <div class="flex wrap" >
+                   
                     <div className="node">
                         <img src={node} />
 
@@ -56,6 +58,7 @@ function Header() {
                     <img src={database} />
 
                     </div>
+                    
                     </div>
                 </div>
 
@@ -66,7 +69,8 @@ function Header() {
                 <div className="icons">
                <a href="https://github.com/Rroshan12" style={{textDecoration:'none', color:'white'}}> <AiOutlineGithub/>&nbsp; Github | &nbsp; </a>
                <a href="https://www.facebook.com/grappleroshan.poudel/" style={{textDecoration:'none', color:'white'}}> <FiFacebook/>&nbsp; Facebook | &nbsp; </a>
-               <a href="https://www.linkedin.com/in/roshan-poudel-a84145185/" style={{textDecoration:'none', color:'white'}}><AiOutlineLinkedin/>&nbsp; Linkedin </a>
+               <a href="https://www.linkedin.com/in/roshan-poudel-a84145185/" style={{textDecoration:'none', color:'white'}}><AiOutlineLinkedin/>&nbsp; Linkedin  |</a>
+        
 
                 </div>
               
