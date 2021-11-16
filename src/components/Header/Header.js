@@ -4,6 +4,12 @@ import image from '../../images/banner.png'
 import node from '../../images/node.jpeg'
 import react from '../../images/react.jpeg'
 import database from '../../images/database.png'
+import {AiOutlineGithub} from 'react-icons/ai'
+import {FiFacebook} from 'react-icons/fi'
+import {AiOutlineLinkedin} from 'react-icons/ai'
+
+
+
 
 function Header() {
     return (
@@ -38,8 +44,18 @@ function Header() {
                 </div>
 
             </div>
+            
             <div id="footer-section">
-                <h1>Project</h1>
+                <h1>Connect me At</h1>
+                <div className="icons">
+               <a href="https://github.com/Rroshan12" style={{textDecoration:'none', color:'white'}}> <AiOutlineGithub/>&nbsp; Github | &nbsp; </a>
+               <a href="https://www.facebook.com/grappleroshan.poudel/" style={{textDecoration:'none', color:'white'}}> <FiFacebook/>&nbsp; Facebook | &nbsp; </a>
+               <a href="https://www.linkedin.com/in/roshan-poudel-a84145185/" style={{textDecoration:'none', color:'white'}}><AiOutlineLinkedin/>&nbsp; Linkedin </a>
+
+                </div>
+              
+           
+                
             </div>
 
 
